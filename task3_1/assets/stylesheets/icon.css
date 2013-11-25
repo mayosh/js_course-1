@@ -1,0 +1,30 @@
+.icon{
+  height: 24px;
+  width: 24px;
+  display: inline-block;
+  margin-bottom: -5px;
+}
+.icon-home{
+  background-image: url(../images/home.svg);
+}
+.icon-faq{
+  background-image: url(../images/faq.svg);
+}
+.icon-contacts{
+  background-image: url(../images/contacts.svg);
+}
+.icon-smile{
+  background-image: url(../images/smile.svg);
+}
+.icon-address{
+  background-image: url(../images/address.svg);
+}
+.icon-email{
+  background-image: url(../images/email.svg);
+}
+.icon-phone{
+  background-image: url(../images/phone.svg);
+}
+.icon-feedback{
+  background-image: url(../images/feedback.svg);
+}

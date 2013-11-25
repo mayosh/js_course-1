@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Hometask 3</title>
+      <link href="assets/stylesheets/application.css" rel="stylesheet" media="screen">
+      <link href="assets/stylesheets/icon.css" rel="stylesheet" media="screen">
+   </head>
+   <body>
+      <header>
+         <nav>
+            <ul class="flex">
+               <li><a href="#">
+                  <i class="icon icon-home"></i>
+                  Home
+                  </a>
+               </li>
+               <li><a href="#faq">
+                  <i class="icon icon-faq"></i>
+                  FAQ
+                  </a>
+               </li>
+               <li><a href="#contacts">        
+                  <i class="icon icon-contacts"></i>
+                  Contacts
+                  </a>
+               </li>
+               <li id="stay-in-touch"><a href="#register">
+                  <i class="icon icon-smile"></i>
+                  Stay in touch
+                  </a>
+               </li>
+            </ul>
+         </nav>
+      </header>
+      <section id="about">
+         <article>
+            <div class="picture screen-only left-side">
+               <img src="assets/images/landscape.svg" alt="landscape">
+            </div>
+            <p>Первостепенный текст, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.</p>
+            <p>Второстепенный текст, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.</p>
+            <div class="picture screen-only right-side">
+               <img src="assets/images/landscape.svg" alt="landscape">
+            </div>
+            <p>Третий сорт, забиваем полосу Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.</p>
+         </article>
+      </section>
+      <section id="faq">
+         <article>
+            <h2>FAQ</h2>
+            <dl>
+               <dt>Question 1</dt>
+               <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec</dd>
+               <dt>Question 1</dt>
+               <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam.</dd>
+            </dl>
+         </article>
+      </section>
+      <section id="contacts">
+         <article>
+            <h2>Contacts</h2>
+            <div class="picture map left-side flex">
+               <img alt="map" src="assets/images/map.svg"/>
+            </div>
+            <div class="flex">
+               <p>
+                  <i class="icon icon-address"></i>
+                  <span class="screen-only">adrress:</span> serious office outside Seriousville, just by boring lake
+               </p>
+               <p>
+                  <i class="icon icon-email"></i>
+                  <span class="screen-only">email: </span>
+                  <a href="mailto:company@serious.business">company@serious.business</a>
+               </p>
+               <p> 
+                  <i class="icon icon-phone"></i>        
+                  <span class="screen-only">phone: </span>
+                  <a href="callto:888-88-88">888-888-88</a>
+               </p>
+            </div>
+         </article>
+      </section>
+      <section id="register" class="screen-only">
+         <article>
+            <h2>Stay in touch</h2>
+            <form>
+               <p><span>Name</span><input type="text" /></p>
+               <p><span>Email</span><input type="text" /></p>
+               <p><label><input type="checkbox" /> I agree to get spam</label></p>
+            </form>
+         </article>
+      </section>
+      <footer>
+         <ul class ="nav screen-only">
+            <li><a href="#">Home</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#register">Stay in touch</a></li>
+         </ul>
+         <div class="feedback">
+            <p>
+               <i class="icon icon-feedback"></i>  Let us hear your feedback
+            </p>
+            <br/>
+            <p>How likely will you advice us?</p>
+            <form>
+               <ul>
+                  <li><input name="vote" type="radio">--</li>
+                  <li><input name="vote" type="radio">-+</li>
+                  <li><input name="vote" type="radio">+-</li>
+                  <li><input name="vote" type="radio">++</li>
+               </ul>
+               <button>VOTE</button>
+            </form>
+         </div>
+         <div>© Copyright 2013 - sudodoki</div>
+      </footer>
+   </body>
+</html>
